@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 500vh;
+    background-image: linear-gradient(45deg, red 0, orange 100%);
+}
+.status{
+    width: 0%;
+    height: 4vh;
+    background-color: black;
+    transition: .6s linear;
+    position: fixed;
+}
